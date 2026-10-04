@@ -1,0 +1,186 @@
+
+
++-----------------------------------------------------------------------------+
+|                                                                             |
+|                                                                             |
+|                        \u2584\u2580\u2580 \u2584\u2580\u2588 \u2588\u2580\u2580 \u2580\u2588\u2580 \u2588\u2580\u2584\u2580\u2588 \u2588\u2580\u2580 \u2588\u2580\u2588                        |
+|                        \u2588\u2580  \u2588\u2580\u2588 \u2584\u2584\u2588  \u2588  \u2588 \u2580 \u2588 \u2588\u2584\u2584 \u2588\u2580\u2580                        |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                               FastMCP 4.0.10                                |
+|                            https://gofastmcp.com                            |
+|                                                                             |
+|                 \U0001f5a5  Server:      CineBot, 4.0.10                             |
+|                 \U0001f680 Deploy free: https://horizon.prefect.io                  |
+|                                                                             |
++-----------------------------------------------------------------------------+
+
+
+[10/03/26 10:58:28] INFO     Starting MCP server 'CineBot'     transport.py:242
+                             with transport 'stdio'                            
+
+
++-----------------------------------------------------------------------------+
+|                                                                             |
+|                                                                             |
+|                        \u2584\u2580\u2580 \u2584\u2580\u2588 \u2588\u2580\u2580 \u2580\u2588\u2580 \u2588\u2580\u2584\u2580\u2588 \u2588\u2580\u2580 \u2588\u2580\u2588                        |
+|                        \u2588\u2580  \u2588\u2580\u2588 \u2584\u2584\u2588  \u2588  \u2588 \u2580 \u2588 \u2588\u2584\u2584 \u2588\u2580\u2580                        |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                               FastMCP 4.0.10                                |
+|                            https://gofastmcp.com                            |
+|                                                                             |
+|                 \U0001f5a5  Server:      CineBot, 4.0.10                             |
+|                 \U0001f680 Deploy free: https://horizon.prefect.io                  |
+|                                                                             |
++-----------------------------------------------------------------------------+
+
+
+[10/03/26 11:02:33] INFO     Starting MCP server 'CineBot'     transport.py:242
+                             with transport 'stdio'                            
+[10/03/26 11:02:34] Error calling tool 'risky_lookup'                          
+                    +----------- Traceback (most recent call last) -----------+
+                    | c:\AgenticAI\MCP\Live-Class-2026-main\Weekend 14 - Oct  |
+                    | 3 & Oct 4\MCP in                                        |
+                    | Langchain\.venv\Lib\site-packages\fastmcp\server\server |
+                    | .py:1505 in call_tool                                   |
+                    |                                                         |
+                    | c:\AgenticAI\MCP\Live-Class-2026-main\Weekend 14 - Oct  |
+                    | 3 & Oct 4\MCP in                                        |
+                    | Langchain\.venv\Lib\site-packages\fastmcp\tools\base.py |
+                    | :440 in _run                                            |
+                    |                                                         |
+                    |                 ... 8 frames hidden ...                 |
+                    |                                                         |
+                    | c:\AgenticAI\MCP\Live-Class-2026-main\Weekend 14 - Oct  |
+                    | 3 & Oct 4\MCP in                                        |
+                    | Langchain\.venv\Lib\site-packages\fastmcp\tools\functio |
+                    | n_tool.py:89 in wrapper                                 |
+                    |                                                         |
+                    | C:\AgenticAI\MCP\Live-Class-2026-main\Weekend 14 - Oct  |
+                    | 3 & Oct 4\MCP in Langchain\cinebot_error_server.py:8 in |
+                    | risky_lookup                                            |
+                    |                                                         |
+                    |    5 def risky_lookup(booking_id: str) -> str:          |
+                    |    6     """Look up a booking --fails if ID format is w |
+                    |    7     if not booking_id.startswith("BK-"):           |
+                    | >  8         raise ValueError(f"Invalid booking ID form |
+                    |      'BK-'.")                                           |
+                    |    9     return f"Booking {booking_id} confirmed."      |
+                    |   10                                                    |
+                    |   11 if __name__ == "__main__":                         |
+                    +---------------------------------------------------------+
+                    ValueError: Invalid booking ID format:'12345'. Must start  
+                    with 'BK-'.                                                
+
+
++-----------------------------------------------------------------------------+
+|                                                                             |
+|                                                                             |
+|                        \u2584\u2580\u2580 \u2584\u2580\u2588 \u2588\u2580\u2580 \u2580\u2588\u2580 \u2588\u2580\u2584\u2580\u2588 \u2588\u2580\u2580 \u2588\u2580\u2588                        |
+|                        \u2588\u2580  \u2588\u2580\u2588 \u2584\u2584\u2588  \u2588  \u2588 \u2580 \u2588 \u2588\u2584\u2584 \u2588\u2580\u2580                        |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                               FastMCP 4.0.10                                |
+|                            https://gofastmcp.com                            |
+|                                                                             |
+|                 \U0001f5a5  Server:      CineBot, 4.0.10                             |
+|                 \U0001f680 Deploy free: https://horizon.prefect.io                  |
+|                                                                             |
++-----------------------------------------------------------------------------+
+
+
+[10/03/26 11:05:27] INFO     Starting MCP server 'CineBot'     transport.py:242
+                             with transport 'stdio'                            
+[10/03/26 11:05:28] Error calling tool 'risky_lookup'                          
+                    +----------- Traceback (most recent call last) -----------+
+                    | c:\AgenticAI\MCP\Live-Class-2026-main\Weekend 14 - Oct  |
+                    | 3 & Oct 4\MCP in                                        |
+                    | Langchain\.venv\Lib\site-packages\fastmcp\server\server |
+                    | .py:1505 in call_tool                                   |
+                    |                                                         |
+                    | c:\AgenticAI\MCP\Live-Class-2026-main\Weekend 14 - Oct  |
+                    | 3 & Oct 4\MCP in                                        |
+                    | Langchain\.venv\Lib\site-packages\fastmcp\tools\base.py |
+                    | :440 in _run                                            |
+                    |                                                         |
+                    |                 ... 8 frames hidden ...                 |
+                    |                                                         |
+                    | c:\AgenticAI\MCP\Live-Class-2026-main\Weekend 14 - Oct  |
+                    | 3 & Oct 4\MCP in                                        |
+                    | Langchain\.venv\Lib\site-packages\fastmcp\tools\functio |
+                    | n_tool.py:89 in wrapper                                 |
+                    |                                                         |
+                    | C:\AgenticAI\MCP\Live-Class-2026-main\Weekend 14 - Oct  |
+                    | 3 & Oct 4\MCP in Langchain\cinebot_error_server.py:8 in |
+                    | risky_lookup                                            |
+                    |                                                         |
+                    |    5 def risky_lookup(booking_id: str) -> str:          |
+                    |    6     """Look up a booking --fails if ID format is w |
+                    |    7     if not booking_id.startswith("BK-"):           |
+                    | >  8         raise ValueError(f"Invalid booking ID form |
+                    |      'BK-'.")                                           |
+                    |    9     return f"Booking {booking_id} confirmed."      |
+                    |   10                                                    |
+                    |   11 if __name__ == "__main__":                         |
+                    +---------------------------------------------------------+
+                    ValueError: Invalid booking ID format:'12345'. Must start  
+                    with 'BK-'.                                                
+
+
++-----------------------------------------------------------------------------+
+|                                                                             |
+|                                                                             |
+|                        \u2584\u2580\u2580 \u2584\u2580\u2588 \u2588\u2580\u2580 \u2580\u2588\u2580 \u2588\u2580\u2584\u2580\u2588 \u2588\u2580\u2580 \u2588\u2580\u2588                        |
+|                        \u2588\u2580  \u2588\u2580\u2588 \u2584\u2584\u2588  \u2588  \u2588 \u2580 \u2588 \u2588\u2584\u2584 \u2588\u2580\u2580                        |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                               FastMCP 4.0.10                                |
+|                            https://gofastmcp.com                            |
+|                                                                             |
+|                 \U0001f5a5  Server:      CineBot, 4.0.10                             |
+|                 \U0001f680 Deploy free: https://horizon.prefect.io                  |
+|                                                                             |
++-----------------------------------------------------------------------------+
+
+
+[10/03/26 14:22:04] INFO     Starting MCP server 'CineBot'     transport.py:242
+                             with transport 'stdio'                            
+[10/03/26 14:22:04] Error calling tool 'risky_lookup'                          
+                    +----------- Traceback (most recent call last) -----------+
+                    | c:\AgenticAI\MCP\Live-Class-2026-main\Weekend 14 - Oct  |
+                    | 3 & Oct 4\MCP in                                        |
+                    | Langchain\.venv\Lib\site-packages\fastmcp\server\server |
+                    | .py:1505 in call_tool                                   |
+                    |                                                         |
+                    | c:\AgenticAI\MCP\Live-Class-2026-main\Weekend 14 - Oct  |
+                    | 3 & Oct 4\MCP in                                        |
+                    | Langchain\.venv\Lib\site-packages\fastmcp\tools\base.py |
+                    | :440 in _run                                            |
+                    |                                                         |
+                    |                 ... 8 frames hidden ...                 |
+                    |                                                         |
+                    | c:\AgenticAI\MCP\Live-Class-2026-main\Weekend 14 - Oct  |
+                    | 3 & Oct 4\MCP in                                        |
+                    | Langchain\.venv\Lib\site-packages\fastmcp\tools\functio |
+                    | n_tool.py:89 in wrapper                                 |
+                    |                                                         |
+                    | C:\AgenticAI\MCP\Live-Class-2026-main\Weekend 14 - Oct  |
+                    | 3 & Oct 4\MCP in Langchain\cinebot_error_server.py:8 in |
+                    | risky_lookup                                            |
+                    |                                                         |
+                    |    5 def risky_lookup(booking_id: str) -> str:          |
+                    |    6     """Look up a booking --fails if ID format is w |
+                    |    7     if not booking_id.startswith("BK-"):           |
+                    | >  8         raise ValueError(f"Invalid booking ID form |
+                    |      'BK-'.")                                           |
+                    |    9     return f"Booking {booking_id} confirmed."      |
+                    |   10                                                    |
+                    |   11 if __name__ == "__main__":                         |
+                    +---------------------------------------------------------+
+                    ValueError: Invalid booking ID format:'12345'. Must start  
+                    with 'BK-'.                                                

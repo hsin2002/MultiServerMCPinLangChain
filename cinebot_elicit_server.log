@@ -1,0 +1,58 @@
+  File "C:\AgenticAI\MCP\Live-Class-2026-main\Weekend 14 - Oct 3 & Oct 4\MCP in Langchain\cinebot_elicit_server.py", line 10
+    f"Confirm cancellation for booking {booking_id}?"
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+  File "C:\AgenticAI\MCP\Live-Class-2026-main\Weekend 14 - Oct 3 & Oct 4\MCP in Langchain\cinebot_elicit_server.py", line 10
+    f"Confirm cancellation for booking {booking_id}?"
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+  File "C:\AgenticAI\MCP\Live-Class-2026-main\Weekend 14 - Oct 3 & Oct 4\MCP in Langchain\cinebot_elicit_server.py", line 10
+    f"Confirm cancellation for booking {booking_id}?"
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+
++-----------------------------------------------------------------------------+
+|                                                                             |
+|                                                                             |
+|                        \u2584\u2580\u2580 \u2584\u2580\u2588 \u2588\u2580\u2580 \u2580\u2588\u2580 \u2588\u2580\u2584\u2580\u2588 \u2588\u2580\u2580 \u2588\u2580\u2588                        |
+|                        \u2588\u2580  \u2588\u2580\u2588 \u2584\u2584\u2588  \u2588  \u2588 \u2580 \u2588 \u2588\u2584\u2584 \u2588\u2580\u2580                        |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                               FastMCP 4.0.10                                |
+|                            https://gofastmcp.com                            |
+|                                                                             |
+|                 \U0001f5a5  Server:      CineBotElicit, 4.0.10                       |
+|                 \U0001f680 Deploy free: https://horizon.prefect.io                  |
+|                                                                             |
++-----------------------------------------------------------------------------+
+
+
+[10/03/26 12:43:15] INFO     Starting MCP server               transport.py:242
+                             'CineBotElicit' with transport                    
+                             'stdio'                                           
+[10/03/26 12:43:20] Error calling tool 'cancel_booking_confirm'                
+
+
++-----------------------------------------------------------------------------+
+|                                                                             |
+|                                                                             |
+|                        \u2584\u2580\u2580 \u2584\u2580\u2588 \u2588\u2580\u2580 \u2580\u2588\u2580 \u2588\u2580\u2584\u2580\u2588 \u2588\u2580\u2580 \u2588\u2580\u2588                        |
+|                        \u2588\u2580  \u2588\u2580\u2588 \u2584\u2584\u2588  \u2588  \u2588 \u2580 \u2588 \u2588\u2584\u2584 \u2588\u2580\u2580                        |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                               FastMCP 4.0.10                                |
+|                            https://gofastmcp.com                            |
+|                                                                             |
+|                 \U0001f5a5  Server:      CineBotElicit, 4.0.10                       |
+|                 \U0001f680 Deploy free: https://horizon.prefect.io                  |
+|                                                                             |
++-----------------------------------------------------------------------------+
+
+
+[10/03/26 14:22:07] INFO     Starting MCP server               transport.py:242
+                             'CineBotElicit' with transport                    
+                             'stdio'                                           
+[10/03/26 14:22:08] Error calling tool 'cancel_booking_confirm'                
